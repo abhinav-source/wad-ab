@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile website usin jquery</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="homepage">
+        <div data-role="header">
+            <h1>This is Simple jquery Website</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Welcome to my new mobile website based on jquery</p>
+            <p>Click on button below to go on secondary page</p>
+            <a href="#secondarypage" class="ui-btn ui-btn-b ui-corner-all"> Secondary page</a>
+            <ul data-role="listview"  data-inset = "true">
+                <li><a href="#">>Feature 1</a></li>
+                <li><a href="#">>Feature 2</a</li>
+                <li><a href="#">>Feature 3</a></li>
+            </ul>
+            <p style="text-align: center;">Please log in to continue:</p>
+            <form class="login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="ui-btn ui-btn-b ui-corner-all">Login</button>
+            </form>
+        </div>
+        <div data-role="footer">
+            <h4>&copy; 2024 Simple Website</h4>
+        </div>
+    </div>
+    <div data-role="page" id="secondarypage">
+        <div data-role="header">
+                <h1>This is Secondary Page</h1>
+                <a href="#homepage" class="ui-btn ui-btn-left ui-icon-home ui-btn-icon-left">Home</a>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Welcome to scondary page</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Feature 4</a></li>
+                <li><a href="#">Feature 5</a></li>
+                <li><a href="#">Feature 6</a></li>
+            </ul>
+            <form class="form">
+                <input type="text" placeholder="Enter message you want to give">
+                <button type="submit" class="ui-btn ui-btn-b ui-corner-all">Submit Message</button>
+            </form>
+            <div data-role="footer">
+                <h4>&copy; 2024 Secondary Page for Website</h4>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+download docker and extension
+create file Dockerfile and yogesh.js
+
+
+in yogesh.js 
+console.log("");
+
+
+in Dockerfile  
+FROM node:alpine
+COPY . /partB
+CMD node /partB/ypgesh.js
+
+
+
+in terminal
+
+docker --version
+node yogesh.js
+docker build -t partb .
+docker images 

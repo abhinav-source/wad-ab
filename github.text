@@ -1,0 +1,17 @@
+
+mkdir PartA
+cd PartA
+git --version
+
+(create repositiory and write data in file.txt)
+git init
+git add README.md/file name/. 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ac12221/acc.git
+git push -u origin main/main
+
+
+
+
+first commit ani link wli cmmd change krne
